@@ -1,0 +1,13 @@
+
+
+public enum MessageType {
+	
+	APPLICATION,
+	CHECKPOINT,
+	FAILURE,
+	STOP,
+	ROLLING_BACK,
+	START_RECOVERY,
+	RECOVERY,
+	RESUME;
+}
